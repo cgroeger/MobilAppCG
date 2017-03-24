@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: MobilAppCG
+  host: MobilAppCG
+  disk_quota: 1024M
+  services:
+  - App ID-j0nv81w6
+  - Cloudant NoSQL DB-qx
+  - Push Notifications-ai
